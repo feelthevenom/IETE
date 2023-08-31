@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Roboto+Slab&display=swap');
+
+
+:root {
+    --navcol: #2f6690;
+  }
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.body
+{
+    min-height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    background: var(--navcol);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
