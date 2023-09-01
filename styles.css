@@ -105,22 +105,48 @@ body
 
 footer
 {
-    margin-top: 300px;
+    /* margin-top: 300px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40vh;
-    background-color: black;
-    color: white;
+    height: 40vh; */
+    /* background-color: black; */
+    /* color: white; */
 }
 
+footer {
 
-
-
-
-
-
-
+    padding-block: 80px;
+    
+    background-color: #ebf2fa;
+    
+    } 
+    
+.link-column {
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 20px;    
+    }
+    
+    .footer-container {   
+    align-items: flex-start; 
+    justify-content: space-between;
+    }
+    
+    /* sub footer */
+    
+    .subfooter {
+    
+    background-color: #b9cde4;
+    
+    padding: var(--padding-inline-section); 
+}
+    
+    .subfooter-container { 
+    justify-content: center;
+    gap: 30px;
+    
+    }
 
 @media(max-width:992px)
 {
