@@ -1,4 +1,4 @@
-foot = `<footer>
+foot = `<footer  style="position: absolute; top: 0;">
 <div class="address">
     <h1>IETE Chennai</h1>
     <h3>Address:</h3>
