@@ -1,0 +1,38 @@
+:root{
+    --primary:#DD946F;
+    --secondary:#261E5A;
+}
+*
+{
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+}
+body{
+    background-color: var(--secondary);
+}
+.background{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 64px 32px;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 wrap;
+    justify-content: center;
+    max-width: 1200px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 24px;
+}
+.articles article{
+    max-width: 320px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    border-radius: 16px;
+}
