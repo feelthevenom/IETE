@@ -89,7 +89,10 @@ body
     cursor: pointer;
     display: none;
 }
-
+.homephoto{
+   max-width: 100%;
+   height: auto;
+}
 #check{
     display: none;
 }
