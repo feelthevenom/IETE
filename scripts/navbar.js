@@ -16,7 +16,7 @@ nav = `
             <a href="./execommit.html">Executive Committee</a>
             <a href="./events.html">Events</a>
             <a href="./membership.html">Membership</a>
-            <a href="#">Chencon</a>
+            <a href="./chencon.html">Chencon</a>
             <a href="#">Chenlink Newsletter</a>
             <a href="./contact.html">Contact</a>
         </nav>      
