@@ -20,7 +20,13 @@ body
     background-image: none;
     background-size: cover;
     background-position: center;
-
+    
+    
+    
+    
+}
+.content p{
+    padding:12px;
 }
 
 .header
