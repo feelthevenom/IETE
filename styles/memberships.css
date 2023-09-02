@@ -5,7 +5,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Alkatra', cursive;
 }
 body
 {
@@ -29,7 +29,9 @@ main
     width: 50%;
     animation: text 2s ease-in-out;
     z-index: -10;
-    position: sticky;
+    position: relative;
+    top: 70px;
+   right: 50px;
 }
 h2
 {
@@ -44,16 +46,17 @@ h2
 .contenttext{
     text-align: center;
     position: absolute;
-    top: 16%;
-    font-size: 2vh;
+    top: 12%;
+    font-size: 1.6vw;
     width: 50%;
-    right: 8%;
+    right: 10%;
+    animation: fade-up 1.5s;
 }
 
 .membership{
     margin-top: 80px;
-    height: 400px;
-    font-size: 1.2rem;
+    height: 44vh;
+    font-size: 3.3vh;
     background-color: #1a1a66;
     text-align: center;
 }
@@ -65,37 +68,41 @@ h2
 .membership p{
     position: relative;
     top: 50px;
+    font-size: 2.3vh;
     color: #B9D9EB;
-}
-.corporate{
-    margin-top: 200px;
-    background-color: #1a1a66;
-    height: 400px;
-}
-.corporate h3{
-    position: relative;
-    top: 30px;
-    font-size: 28px;
-    color: #fbfcf0;
-    text-align: center;
-}
-.corporate p{
-    position: relative;
-    top: 50px;
-    padding: 20px;
-}
-.corporate button{
-    height: 40px;
-    position: relative;
-    border-radius: 25px;
-    top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
     margin: auto;
 }
+.coporatcontainer{
+    margin-top: 200px;
+    height: 340px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* row-gap: 20px; */
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  button{
+    color: white;
+    background-color: #1a1a66;
+    width: 25vw;
+    border-radius: 30px;
+    height: 40px;
+}
+li{
+    padding: 5px;
+    font-size: 1.7vw;
+}
 
-
+.access{
+    margin-top: 300px;
+}
 @keyframes text{
     0%{
         opacity: 0;
@@ -106,25 +113,37 @@ h2
         font-size: 6vw;
     }
 }
-@keyframes text1{
+@keyframes fade-up{
     0%{
         opacity: 0;
-        font-size: 0vw;
+        transform: translateY(30px) scale(0.9);
     }
     100%{
         opacity: 1;
-        font-size: 2vw;
+        transform: translateY(0px) scale(1);
     }
 }
-/* .membermain
+
+@media(max-width:661px)
 {
-    padding: 40px;
-    font-family:sans-serif;
-    font-weight: 150;
-    font-size: large;
-    text-align: left;
-    color: rgb(45, 43, 43);
-} */
+    .contenttext{
+        top: 8%;
+        font-size: 2.3vw;
+    }
+    .membership p 
+    {
+        font-size: 1.5vh;
+    }
+
+    li{
+        font-size: 2.4vw;
+    }
+    button{
+        width: 19vw;
+        height: 20px;
+        font-size: .5rem;
+    }
+}
 :root {
     --navcol: #1a1a66;
   }

@@ -8,7 +8,7 @@ nav = ` <header>
         <i class='bx bx-x' id="close-icon"></i>
     </label>  
     <!-- Navigation Bar -->
-    <nav class="navbar">
+    <nav class="navbar" style="font-family:sans-serif;">
                 <a href="../index.html">Home</a>
                 <a href="./about.html">About</a>
                 <a href="./execommit.html">Executive Committee</a>

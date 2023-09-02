@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Roboto+Slab&display=swap');
 
 :root {
     --navcol: #2f6690;
@@ -9,7 +9,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 body
 {
@@ -22,6 +21,7 @@ body
 }
 
 .fontcontent{
+    margin-top: 80px;
     font-family:sans-serif;
     font-weight: 150;
     font-size: large;
@@ -33,6 +33,16 @@ body
         margin-left: auto;
         margin-right: auto;
         width: 50%;     
+}
+.subhead{
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Alkatra', cursive;
 }
 :root {
     --navcol: #1a1a66;
