@@ -1,27 +1,29 @@
-foot = ` <footer class="footer">
+foot = ` <footer class="footer" style="margin-top: 50px;">
 <div class="container">
+    <h1>IETE Chennai</h1>
     <div class="row">
         <div class="footer-col">
-            <h4>company</h4>
+          
+            <h4>Address:</h4>
+            <p>IETE Chennai Centre,<br> No. 37,
+            Conran Smith Road Entrance Peters Road,<br>
+            Gopalapuram, Chennai - 600 086,<br> Tamil Nadu, India.<br> <br>
+            Phone: 044 2835 0773 <br>
+            Email: ietechennai@gmail.com <br></p><br>
+            
+        </div>
+        <div class="footer-col">
+            <h4>Nav Links</h4>
             <ul>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">our services</a></li>
-                <li><a href="#">privacy policy</a></li>
-                <li><a href="#">affiliate program</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Committee</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <div class="footer-col">
-            <h4>get help</h4>
-            <ul>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">shipping</a></li>
-                <li><a href="#">returns</a></li>
-                <li><a href="#">order status</a></li>
-                <li><a href="#">payment options</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h4>online shop</h4>
+            <h4>Courses</h4>
             <ul>
                 <li><a href="#">watch</a></li>
                 <li><a href="#">bag</a></li>
@@ -38,7 +40,8 @@ foot = ` <footer class="footer">
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
-    </div>
+    </div><br>
+    <p style="color:rgb(119, 119, 118);">© Copyright IETE Chennai. All Rights Reserved</p>
 </div>
-</footer> `
+</footer>`
 document.write(foot)
