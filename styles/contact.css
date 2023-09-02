@@ -1,3 +1,8 @@
-:root {
-    --navcol: #1a1a66;
-  }
+.contactfont{
+    padding: 45px;
+    font-family: sans-serif;
+    font-size: large;
+    color:rgb(16, 15, 15);
+    text-align: justify;
+
+}
