@@ -56,7 +56,8 @@ main{
     z-index: 100;
 }
 #iete
-{
+{   color:#fff;
+    text-align:justify;
     font-size: 22px;
     font-weight: bolder;
 
@@ -71,7 +72,7 @@ main{
 
 }
 #ietename
-{
+{   color:white;
     font-size: 12px;
     text-align: left;
     text-decoration: none;
