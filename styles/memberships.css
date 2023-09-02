@@ -5,16 +5,20 @@
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
 }
-
 body
 {
     min-height: 100vh;
-    background-color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)), url(../src/membership.jpg);
     background-size: cover;
     background-position: center;
-
+    text-align: justify;
+    text-align: center;
+}
+footer{
+    text-align: left;
 }
 .membermain
 {
     padding: 10%;
+    color: white;
 }
