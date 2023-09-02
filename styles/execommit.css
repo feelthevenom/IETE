@@ -20,16 +20,11 @@ body {
 body{
   background-image:none;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+HEAD
 :root {
   --navcol: #1a1a66;
 }
-=======
->>>>>>> 302f2068c94d5984d86f640fdd1a44d777aada9a
->>>>>>> 34d801301f00cbd7aa569757ccdbbdab77118287
->>>>>>> 5a69aaccef2ee90f861bc51e43bacc45e55a3074
+
 .container
 {
     margin-top: 50px;
