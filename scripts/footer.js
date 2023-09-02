@@ -8,9 +8,8 @@ foot = ` <footer class="footer" style="margin-top: 50px;">
             <p>IETE Chennai Centre,<br> No. 37,
             Conran Smith Road Entrance Peters Road,<br>
             Gopalapuram, Chennai - 600 086,<br> Tamil Nadu, India.<br> <br>
-            Phone: <a href="tel:+044 2835 0773">044 2835 0773</a> <br>
-            Email: <a href="mailto:ietechennai@gmail.com">ietechennai@gmail.com</a> <br></p><br>
-            
+            Phone: <a href="tel:""+044 2835 0773">044 2835 0773</a> <br>
+            Email: <a href="mailto:""ietechennai@gmail.com">ietechennai@gmail.com</a> <br></p><br>
         </div>
         <div class="footer-col">
             <h4>Nav Links</h4>
