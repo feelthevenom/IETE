@@ -17,7 +17,7 @@ body
 }
 main
 {
-    margin: auto;
+    width: 100%;
 }
 .thinkimg img
 {
@@ -25,20 +25,77 @@ main
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    animation: text 2s ease-in-out;
 }
 h2
 {
     position: absolute; 
-    margin: 100px;
-    font-size: 50px;
+    margin-top: 50px;
+    font-size: 6vw;
+    margin-left: 20px;
+    z-index: -20;
+    animation: text 4s ease-in-out;
 }
 
 .content p{
     text-align: center;
 }
+
 .membership{
+    margin-top: 80px;
+    height: 400px;
+    font-size: 1.2rem;
     background-color: #1a1a66;
-    /* width: 100%; */
+    text-align: center;
+}
+.membership h3{
+    position: relative;
+    color: #fbfcf0;
+    top: 30px;
+}
+.membership p{
+    position: relative;
+    top: 50px;
+    color: #B9D9EB;
+}
+.corporate{
+    margin-top: 200px;
+    background-color: #1a1a66;
+    height: 400px;
+}
+.corporate h3{
+    position: relative;
+    top: 30px;
+    font-size: 28px;
+    color: #fbfcf0;
+    text-align: center;
+}
+.corporate p{
+    position: relative;
+    top: 50px;
+    padding: 20px;
+}
+.corporate button{
+    height: 40px;
+    position: relative;
+    border-radius: 25px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+@keyframes text{
+    0%{
+        opacity: 0;
+        font-size: 0vw;
+    }
+    100%{
+        opacity: 1;
+        font-size: 6vw;
+    }
 }
 /* .membermain
 {
