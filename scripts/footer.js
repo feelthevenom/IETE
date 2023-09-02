@@ -1,6 +1,6 @@
 foot = `<footer class="footer" style="margin-top: 50px;">
 <div class="container">
-    <h1>IETE Chennai</h1>
+    <h1 style="color: white;">IETE Chennai</h1>
     <div class="row">
         <div class="footer-col">
           
@@ -12,16 +12,7 @@ foot = `<footer class="footer" style="margin-top: 50px;">
             Email: ietechennai@gmail.com <br></p><br>
             
         </div>
-        <div class="footer-col">
-            <h4>Nav Links</h4>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Committee</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
+        
         <div class="footer-col">
             <h4>Courses</h4>
             <ul>
