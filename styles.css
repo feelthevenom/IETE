@@ -200,7 +200,9 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
-
+.container p{
+    color: #dcdcdc;
+}
 /*responsive*/
 /* @media(max-width: 767px){
   .footer-col{
