@@ -9,7 +9,7 @@ body
 {
     margin: 30px;
     min-height: 100vh;
-    /*background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)), url(../src/membership.jpg);*/
+    background-image: none;
     background-size: cover;
     background-position: center;
     text-align: justify;
