@@ -25,10 +25,10 @@ foot = `<footer class="footer" style="margin-top: 50px;">
         <div class="footer-col">
             <h4>Courses</h4>
             <ul>
-                <li><a href="#">watch</a></li>
-                <li><a href="#">bag</a></li>
-                <li><a href="#">shoes</a></li>
-                <li><a href="#">dress</a></li>
+                <li><a href="#">VLSI</a></li>
+                <li><a href="#">5G</a></li>
+                <li><a href="#">Quantum Computing</a></li>
+                <li><a href="#">Communication</a></li>
             </ul>
         </div>
         <div class="footer-col">
