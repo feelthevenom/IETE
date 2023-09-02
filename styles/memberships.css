@@ -22,3 +22,6 @@ footer{
     padding: 10%;
     color: white;
 }
+:root {
+    --navcol: #24445c;
+}
