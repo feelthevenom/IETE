@@ -1,13 +1,13 @@
 nav = `
 <div class="header">
-<a href="#" class="logo"><img src="./src/logo.png" alt="Logo" class="logoimg"></a>
+<a href="../index.html" class="logo"><img src="../src/logo.png" alt="Logo" class="logoimg"></a>
 <input type="checkbox" id="check">
 <label for="check" class="icons">
     <i class='bx bx-menu' id="menu-icon"></i>
     <i class='bx bx-x' id="close-icon"></i>
 </label>
-<a href ="#" id="iete">IETE</a>
-<p><b>The Institution of Electronics and Telecommunication Engineers,<br>Chennai</b></p>
+<a href ="../index.html" id="iete">IETE</a>
+<p id="ietename"><b>The Institution of Electronics and Telecommunication Engineers,<br>Chennai</b></p>
 
 <!-- Navigation Bar -->
 <nav class="navbar">
