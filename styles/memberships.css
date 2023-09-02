@@ -8,11 +8,12 @@
 body
 {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)), url(../src/membership.jpg);
+    /*background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)), url(../src/membership.jpg);*/
     background-size: cover;
     background-position: center;
     text-align: justify;
-    text-align: center;
+    text-align: left;
+    margin: 30px;
 }
 footer{
     text-align: left;
@@ -20,7 +21,7 @@ footer{
 .membermain
 {
     padding: 10%;
-    color: white;
+    color: rgb(31, 29, 29);
 }
 :root {
     --navcol: #24445c;
