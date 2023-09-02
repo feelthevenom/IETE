@@ -16,11 +16,17 @@
 body
 {
     min-height: 100vh;
-    background-color: white;
+    background-color: #FCFFE5;
     background-image: none;
     background-size: cover;
     background-position: center;
-
+    
+    
+    
+    
+}
+.content p{
+    padding:12px;
 }
 
 .header

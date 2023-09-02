@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 body{
+<<<<<<< HEAD
         background-color: #f9f6f2;
+=======
+  background-image:none;
+  background-color: #FCFFE5;
+>>>>>>> 0b99c4db45df9ac290426752269848974c05bc9e
 }
 .card-img-top{
     border-radius: 50px;
