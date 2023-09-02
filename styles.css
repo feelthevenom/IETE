@@ -31,6 +31,7 @@ body
     padding-bottom: 10rem;
     background-color: white;
     /* background-size: cover; */
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url(./src/homephoto.jpg);
     background-position: center;
     box-sizing: inherit;
 
@@ -257,4 +258,11 @@ footer{
         text-align: center;
         color: #16425b;
     }
+}
+.paracolor{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    color: rgb(239, 233, 233);
+    padding:30px;
+    text-align: right;
 }
