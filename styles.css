@@ -282,8 +282,10 @@ footer{
 }
 .paracolor{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:xx-large;
+    font-weight: bolder;
+    font-size: 40px;
     color: rgb(239, 233, 233);
-    padding:30px;
     text-align: right;
+    padding-right: 100px;
+    padding-top: 100px;
 }
