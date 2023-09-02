@@ -2,3 +2,6 @@ body{
     background-image: none;
 
 }
+:root {
+    --navcol: #1a1a66;
+  }

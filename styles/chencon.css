@@ -39,3 +39,6 @@ body
 /* .content{
     display: none;
 } */
+:root {
+    --navcol: #1a1a66;
+  }
