@@ -12,7 +12,7 @@ foot = `<footer class="footer" style="margin-top: 50px;">
             Email: ietechennai@gmail.com <br></p><br>
             
         </div>
-        <div class="footer-col">
+        //<div class="footer-col">
             <h4>Nav Links</h4>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -21,7 +21,7 @@ foot = `<footer class="footer" style="margin-top: 50px;">
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </div>
+        </div>//
         <div class="footer-col">
             <h4>Courses</h4>
             <ul>
