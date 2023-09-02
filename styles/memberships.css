@@ -9,20 +9,24 @@ body
 {
     margin: 30px;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)), url(../src/membership.jpg);
+    background-image: none;
     background-size: cover;
     background-position: center;
     text-align: justify;
-    text-align: center;
+    text-align: left;
+    margin: 30px;
 }
 footer{
     text-align: left;
 }
 .membermain
 {
-    padding: 10%;
-    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150;
+    font-size: large;
+    text-align: left;
+    color: rgb(45, 43, 43);
 }
 :root {
-    --navcol: #24445c;
+    --navcol: #2f4d65;
 }
