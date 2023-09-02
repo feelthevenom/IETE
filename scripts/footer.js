@@ -9,7 +9,7 @@ foot = ` <footer class="footer" style="margin-top: 50px;">
             Conran Smith Road Entrance Peters Road,<br>
             Gopalapuram, Chennai - 600 086,<br> Tamil Nadu, India.<br> <br>
             Phone: <a href="tel:+044 2835 0773">044 2835 0773</a> <br>
-            Email: ietechennai@gmail.com <br></p><br>
+            Email: <a href="mailto:ietechennai@gmail.com">ietechennai@gmail.com</a> <br></p><br>
             
         </div>
         <div class="footer-col">

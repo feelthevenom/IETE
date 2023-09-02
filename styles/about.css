@@ -17,7 +17,7 @@ body
     background-color: white;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(../src/Aboutphoto.jpeg);
+    /*background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(../src/Aboutphoto.jpeg);*/
     background-size: cover;
     background-position: center;
 }
@@ -39,7 +39,7 @@ body
     font-weight: 150;
     font-size: large;
     text-align: left;
-    color: whitesmoke;
+    color: rgb(45, 43, 43);
 }
 .lapcenter{
         display: block;
