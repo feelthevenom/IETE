@@ -138,6 +138,7 @@ ul{
 }
 footer{
 	background-color: #24262b;
+    margin: 0;
     padding: 35px;
     position: absolute;
     right: 0;
@@ -218,9 +219,6 @@ footer{
     } */
     
 }
-
-
-
 @media(max-width:778px)
 {
     .icons{
