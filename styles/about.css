@@ -9,7 +9,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
+    font-family: sans-serif;
 }
 body
 {
@@ -35,7 +35,7 @@ body
     z-index: 100;
 }
 .fontcontent{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:sans-serif;
     font-weight: 150;
     font-size: large;
     text-align: left;
