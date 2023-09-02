@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 /* body,
 html {
   height: 100%;
@@ -20,11 +22,16 @@ body {
 body{
   background-image:none;
 }
+<<<<<<< HEAD
 :root {
   --navcol: #1a1a66;
 }
+=======
+>>>>>>> 302f2068c94d5984d86f640fdd1a44d777aada9a
+>>>>>>> 34d801301f00cbd7aa569757ccdbbdab77118287
 .container
 {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
     padding: 45px;
@@ -39,7 +46,7 @@ body{
   width: 55vw;
   max-width: 550px;
   padding: 50px 30px 50px 20px;
-  background: #ffffff;
+  background: var(--navcol);
   border-radius: 24px;
 }
 
@@ -106,8 +113,7 @@ body{
   }
   .container
 {
-    grid-template-columns: repeat(auto-fit,minmax(700px,1fr));
-    /* margin: auto; */
+    grid-template-columns: repeat(auto-fit,minmax(740px,1fr));
     justify-content: center;
 }
 }
