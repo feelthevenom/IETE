@@ -63,11 +63,11 @@ footer
 
 .navbar a {
     position: relative;
-    font-size: 14px;
-    color: azure;
+    font-size: 18px;
+    color: rgb(255, 252, 252);
     font-weight: 500;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 .navbar a::before
 {
@@ -76,8 +76,8 @@ footer
     top: 100%;
     left: 0;
     width: 0%;
-    height: 2px;
-    background-color: #fff;
+    height: 3px;
+    background-color: #fefefe;
     transition: 0.3s;
 }
 .navbar a:hover::before
@@ -103,7 +103,7 @@ footer
 
 .logoimg
 {
-    height: 50px;
+    height: 70px;
 }
 #myBtn {
     display: none;
@@ -142,15 +142,15 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: var(--navcol);
-    padding: 70px 0;
+	background-color:rgb(19, 19, 19) /*var(--navcol)*/;
+    padding: 30px 0;
 }
 .footer-col{
-   width: 25%;
-   padding: 0 15px;
+   width: 24%;
+   padding: 5px;
 }
 .footer-col h4{
-	font-size: 18px;
+	font-size: 22px;
 	color: #ffffff;
 	text-transform: capitalize;
 	margin-bottom: 35px;
@@ -162,10 +162,11 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+    font-size: large;
+	background-color: #b92c2c;
 	height: 2px;
 	box-sizing: border-box;
-	width: 50px;
+	width: 85px;
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
@@ -259,7 +260,7 @@ ul{
         font-size: 1.1rem;
         margin: 1.5rem 0;
         text-align: center;
-        color: #16425b;
+        color: #000000;
     }
 }
 
@@ -268,4 +269,13 @@ ul{
     body{
         padding-bottom:30vh;
     }
+}
+.paracolor{
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-right: 100px;
+    color:#ffffff;
+    ;
+    
 }
