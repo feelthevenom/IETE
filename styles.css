@@ -187,6 +187,10 @@ footer{
 .nav-link{
     color: white !important;
 }
+.navbar-brand{
+    width: 50px;
+}
+
 /* .navbar-nav{
     justify-content: space-between;
 } */
@@ -211,8 +215,9 @@ footer{
 
 
 @media(max-width:425px){
-
-    
+    .logo{
+        width: 200px;
+    }
 .overlay{
     top: 19%;
 }
