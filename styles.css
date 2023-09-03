@@ -15,7 +15,7 @@
 .header{
     position: absolute;
     width: 100%;
-    z-index:3;
+    z-index:  9999;;
     top: 0;
     left: 0;
 }
@@ -325,7 +325,7 @@ ul{
 }
 
 .logo{
-    width: 300px;
+    width: 350px;
     height: auto;
 }
 .nav-link{
@@ -339,12 +339,6 @@ ul{
   position: absolute;
   left: 2%;
   text-align: left;
-  margin: auto;
+  /* margin: auto; */
 }
-@media only screen and (max-width: 320px) {
-    .logo{
-        width: 300px;
-        height: auto;
-    }
-    
-}
+
