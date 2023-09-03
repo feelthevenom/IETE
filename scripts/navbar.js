@@ -1,27 +1,56 @@
-nav = ` <header>
+nav = `<header class="header">
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container">
+    <!-- Logo on the left -->
+    <a class="navbar-brand" href="#">
+        <img class="logo" src="../src/logo.png" alt="Logo" width="340" height="60">
+    </a>
 
-<div class="header">
-    <a href="../index.html" class="logo"><img src="../src/logo.png" alt="Logo" class="logoimg"></a>
-    <input type="checkbox" id="check">
-    <label for="check" class="icons">
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <i class='bx bx-x' id="close-icon"></i>
-    </label>  
-    <!-- Navigation Bar -->
-    <nav class="navbar" style="font-family:sans-serif;">
-                <a href="../index.html">Home</a>
-                <a href="./about.html">About</a>
-                <a href="./execommit.html">Executive Committee</a>
-                <a href="./events.html">Events</a>
-                <a href="./membership.html">Membership</a>
-                <a href="./chencon.html">Chencon</a>
-                <a href="#">Chenlink Newsletter</a>
-                <a href="./contact.html">Contact</a>
-            </nav>      
+    <!-- Toggler/collapsing button for small screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./execommit.html">Exe committee</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./events.html">Events</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    Chencon
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./chencon.html">2022</a>
+                    <a class="dropdown-item" href="../src/chencon2022_proceedings.pdf">2021</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    Chenlink Newsletter
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Vol-1 No.1</a>
+                    <a class="dropdown-item" href="#">Vol-1 No.2</a>
+                    <a class="dropdown-item" href="#">Vol-1 No.3</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+        </ul>
     </div>
-<!--<img src="./src/homephoto.jpg" alt="homepage photo" class="homephoto">-->
-
-
+</div>
+</nav>
 </header>
 `
 
