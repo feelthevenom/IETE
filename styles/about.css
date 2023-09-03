@@ -114,6 +114,8 @@ body
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-  @media(max-width:988px){
-
-}
+  @media(max-width:523px){
+    .grid-container {
+    padding-bottom: 120px;
+    }
+  }

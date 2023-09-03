@@ -57,7 +57,7 @@ a {
     gap: 50px;
     padding: 40px;
     width: 100%;
-    /* max-width: 800px; */
+    /* max-width: 100%; */
     justify-content: center; /* Adjust alignment to start */
     margin-top: 20px; /* Add margin to push it down from the top */
   }
