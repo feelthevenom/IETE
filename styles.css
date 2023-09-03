@@ -219,4 +219,20 @@ footer{
   text-align: left;
   /* margin: auto; */
 }
+.abcd{
+    border-radius: 70px;
+    width: 200px;
+    height: auto;
+    font-size: 2vw;
+    color: #1a1a66;
+    background-color: white;
+}
+/* .divhead{
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    text-decoration: underline;
+    margin-top: 80%;
+    margin-bottom: 0;
+} */
 
