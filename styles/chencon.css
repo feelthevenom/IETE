@@ -42,6 +42,26 @@ body
 /* .content{
     display: none;
 } */
+.eventimg{
+margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.content{
+    margin-top: 100px;
+}
+h1{
+    font-size: 4vw;
+}
+h2{
+    font-size: 3vw;
+}
+h3{
+    font-size: 2vw;
+}
+h1,h3,h2{
+    text-align: center;
+}
 :root {
     --navcol: #1a1a66;
   }
