@@ -24,7 +24,6 @@ body{
 }
 .btn-primary{
     border-radius: 50px;
-    width: 120px;
 }
 .btn-primary:hover{
     background-color: black;
