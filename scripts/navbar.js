@@ -20,10 +20,13 @@ nav = `<header class="header">
                 <a class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./execommit.html">Exe committee</a>
+                <a class="nav-link" href="./Executive commit.html">Exe committee</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./events.html">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./navbar/membership.html">Membership</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
