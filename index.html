@@ -9,15 +9,18 @@
 <link rel="stylesheet" href="./styles.css">
 <link rel="stylesheet" href="./styles/corasol.css">
 <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
+<script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
 <link
 rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
 />
 <style>
-    body{
+    /* body{
         padding-bottom: 43rem;
-    }
+    } */
 </style>
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="bootstrap" viewBox="0 0 118 94">
@@ -35,28 +38,60 @@ href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     </symbol>
   </svg>
 <body>
-    <header>
-
-    <div class="header">
-        <a href="../index.html" class="logo"><img src="./src/logo.png" alt="Logo" class="logoimg"></a>
-        <input type="checkbox" id="check">
-        <label for="check" class="icons">
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <i class='bx bx-x' id="close-icon"></i>
-        </label>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- Logo on the left -->
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="./src/logo.png" alt="Logo" width="340" height="60">
+                </a>
         
-        <!-- Navigation Bar -->
-        <nav class="navbar" style="font-family:sans-serif;">
-                    <a href="./index.html">Home</a>
-                    <a href="./navbar/about.html">About</a>
-                    <a href="./navbar/execommit.html">Executive Committee</a>
-                    <a href="./navbar/events.html">Events</a>
-                    <a href="./navbar/membership.html">Membership</a>
-                    <a href="./navbar/chencon.html">Chencon</a>
-                    <a href="#">Chenlink Newsletter</a>
-                    <a href="./navbar/contact.html">Contact</a>
-                </nav>      
-        </div>
+                <!-- Toggler/collapsing button for small screens -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./navbar/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./navbar/execommit.html">Exe committee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./navbar/events.html">Events</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                Chencon
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./navbar/chencon.html">2022</a>
+                                <a class="dropdown-item" href="./src/chencon2022_proceedings.pdf">2021</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                Chenlink Newsletter
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Vol-1 No.1</a>
+                                <a class="dropdown-item" href="#">Vol-1 No.2</a>
+                                <a class="dropdown-item" href="#">Vol-1 No.3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./navbar/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!--<img src="./src/homephoto.jpg" alt="homepage photo" class="homephoto">-->
     <div class="main" style="margin-top: 100px;">
 
@@ -98,25 +133,25 @@ href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
 
 </div>
 
-</header>
 <div class="container">
     <footer class="py-5" style="padding: 40px;">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
-          <h5>Address</h5>
-          <p>
-            No. 32 esrfsofh sdofsdihf
-          </p>
+          <h5>Address:</h5>
+                <p>IETE Chennai Centre,<br> No. 37,
+                Conran Smith Road Entrance Peters Road,<br>
+                Gopalapuram, Chennai - 600 086,<br> Tamil Nadu, India.<br> <br>
+                Phone: 044 2835 0773 <br>
+                Email: ietechennai@gmail.com <br></p>
         </div>
   
         <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
+          <h5>Courses:</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">VLSI</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">5G</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quantum Computing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Communication</a></li>
           </ul>
         </div>
   
@@ -135,7 +170,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
       </div>
   
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2022 Company, Inc. All rights reserved.</p>
+        <p>© Copyright IETE Chennai. All Rights Reserved.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
           <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
@@ -149,6 +184,10 @@ href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="./scripts/swiper.js"></script>
 <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </html>
 
 <!-- 
