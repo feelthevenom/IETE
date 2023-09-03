@@ -1,4 +1,4 @@
-body{
+/* body{
     background-image: none;
 
 }
@@ -7,15 +7,23 @@ body{
   }
   .carousel-inner{
      height: 300px;
-}
+}*/
 
-.item, img{
+/* .item, img{
     height: 100% !important;
     width:  100% !important;
-    border: 1px solid red;
-}
-.sliding{
-    height: 100px;
+}  */
+/* .sliding{
+    height: 200vh;
+    size: 100vh;
     position: relative;
     align-items: center;
+} */
+main{
+    margin-top: 50px;
+}
+.eventitle{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-size: 26px; */
+    font-size: 2vw;
 }
