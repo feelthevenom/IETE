@@ -42,9 +42,9 @@ nav = `<header class="header">
                     Chenlink Newsletter
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Vol-1 No.1</a>
-                    <a class="dropdown-item" href="#">Vol-1 No.2</a>
-                    <a class="dropdown-item" href="#">Vol-1 No.3</a>
+                    <a class="dropdown-item" href="../newsletter/chenlink1_1.pdf">Vol-1 No.1</a>
+                    <a class="dropdown-item" href="../newsletter/chenlink1_2.pdf">Vol-1 No.2</a>
+                    <a class="dropdown-item" href="../newsletter/chenlink1_3.pdf">Vol-1 No.3</a>
                 </div>
             </li>
             <li class="nav-item">
