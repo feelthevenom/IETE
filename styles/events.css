@@ -5,3 +5,17 @@ body{
 :root {
     --navcol: #1a1a66;
   }
+  .carousel-inner{
+     height: 300px;
+}
+
+.item, img{
+    height: 100% !important;
+    width:  100% !important;
+    border: 1px solid red;
+}
+.sliding{
+    height: 100px;
+    position: relative;
+    align-items: center;
+}
