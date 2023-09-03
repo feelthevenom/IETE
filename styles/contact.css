@@ -59,34 +59,14 @@ a {
     grid-template-columns: repeat(2, 1fr);
     /* row-gap: 20px; */
     gap: 30px;
-    /* padding: 40px; */
-    position: absolute;
-  top:17%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
+    padding: 40px;
   }
-  .map{
-    position: relative;
-    margin-top: 800px;
-  }
+  
   .grid-item {
     text-align: center;
     background-color: #1a1a66;
     border-radius: 5px;
     padding: 10px;
-  }
-  @media only screen and (max-width: 1165px) {
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr);
-        top:25%;
-      }
-      body{
-        padding-bottom: 200vh;
-      }
-      .map{
-        margin-top: 1100px;
-      }
   }
   /* .grid-container {
     display: grid;
