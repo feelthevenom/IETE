@@ -57,22 +57,22 @@ body
     font-size: 4vw;
     text-align: center;
 }
-h2{
+.h21{
     font-size: 3vw;
 }
-h3{
+.h31{
     font-size: 2vw;
 }
-h3,h2{
+.h31,.h21{
     text-align: center;
 }
 .recent{
     font-size: 1.4vw;
 }
-h4{
+.title1{
     font-size: 2.5vw;
 }
-h5{
+.h51{
     font-size: 2.4vw;
 }
 .reg{
@@ -104,6 +104,10 @@ a{
     text-align: center;
     font-size: 1.4vw;
 }
+.names1{
+    text-align: center;
+    font-size: 1.4vw;
+}
 :root {
     --navcol: #1a1a66;
   }
@@ -113,12 +117,36 @@ a{
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    button{
+    /* button{
         color: white;
         background-color: #1a1a66;
         width: 25vw;
         border-radius: 30px;
-        height: 6vh;
-        font-size: 2.2vw;
+        height: 10vh;
+        font-size: 1.5vw;
+    } */
+}
+@media(max-width:587px){
+    .names1{
+        margin-bottom: 300px;
+    }
+    .h31{
+        font-size: 2vw;
+    }
+    .title1{
+        font-size: 2vw;
+    }
+    .h51{
+        font-size: 1.5vw;
+    }
+}
+@media(max-width:840px){
+    button{
+        color: white;
+        background-color: #1a1a66;
+        width: 26vw;
+        border-radius: 30px;
+        height: 15vh;
+        font-size: 1.5vw;
     }
 }
