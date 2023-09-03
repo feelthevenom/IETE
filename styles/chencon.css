@@ -76,28 +76,42 @@ h5{
 }
 .reg{
     font-size: 1.4vw;
+    text-align: center;
 }
 button{
     color: white;
     background-color: #1a1a66;
     width: 25vw;
     border-radius: 30px;
-    height: 5vh;
-    font-size: 1vw;
+    height: 7vh;
+}
+.eventimg{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 a{
     text-decoration: none;
 }
 .button{
     margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 80px;
+}
+.names{
+    text-align: center;
+    font-size: 1.4vw;
 }
 :root {
     --navcol: #1a1a66;
   }
-
   @media(max-width: 400px)
 {
+    .eventimg{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     button{
         color: white;
         background-color: #1a1a66;
