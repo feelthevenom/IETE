@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../styles/about.css">
     <script src="../scripts/navbar.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <style>
     body{
@@ -18,32 +21,84 @@
     <main>
         <div class="fontcontent" >
             <h1 class="subhead">IETE</h1>
-            <p>Founded in 1953, the Institution of Electronics and Telecommunication Engineers (IETE) is a leading professional society. Its vision is to reach the unreached and empower the youth through Technical Education and Skill development with a Mission for Advancement of Electronics, Telecommunication, Information Technology & other related disciplines; to contribute in Nation's Human Resource & Infrastructure Development through our Engineers & Scientists. The Government of India, Ministry of Science and Technology, Department of Scientific & Industrial Research has recognized IETE as a Scientific and Industrial Research Organization (SIRO). The Institution has also been notified as an Educational Institution of National Eminence by the Government of India. IETE is governed by its elected Governing Council headed by an elected President. It has on its roll the Secretary General – the head of IETE Secretariat as Chief Executive. The Institution is managed through various Committees and Boards nominated by the Governing Council. The 63 Centers are spread all over India 02 abroad and are managed by respective Executive Committees. To keep pace with technological development and achieve the mission, it organizes conferences, conventions, symposia, seminars, workshops, publications and brain storming sessions for continued knowledge upgradation of its members.
+            <p class="tent">Founded in 1953, the Institution of Electronics and Telecommunication Engineers (IETE) is a leading professional society. Its vision is to reach the unreached and empower the youth through Technical Education and Skill development with a Mission for Advancement of Electronics, Telecommunication, Information Technology & other related disciplines; to contribute in Nation's Human Resource & Infrastructure Development through our Engineers & Scientists. The Government of India, Ministry of Science and Technology, Department of Scientific & Industrial Research has recognized IETE as a Scientific and Industrial Research Organization (SIRO). The Institution has also been notified as an Educational Institution of National Eminence by the Government of India. IETE is governed by its elected Governing Council headed by an elected President. It has on its roll the Secretary General – the head of IETE Secretariat as Chief Executive. The Institution is managed through various Committees and Boards nominated by the Governing Council. The 63 Centers are spread all over India 02 abroad and are managed by respective Executive Committees. To keep pace with technological development and achieve the mission, it organizes conferences, conventions, symposia, seminars, workshops, publications and brain storming sessions for continued knowledge upgradation of its members.
             </p>
             <br>
             <h1 class="subhead">Chennai Center</h1>
-            <p>Chennai Centre of IETE is committed to attain commanding heights and achieve the status of “Centre of Excellence” in Technical, Engineering & Management education by harnessing the best practices in educational innovation and through its concerted endeavors like quality teaching, industrial consultancy and training to the aspirants including corporate training.
+            <p class="tent">Chennai Centre of IETE is committed to attain commanding heights and achieve the status of “Centre of Excellence” in Technical, Engineering & Management education by harnessing the best practices in educational innovation and through its concerted endeavors like quality teaching, industrial consultancy and training to the aspirants including corporate training.
                 
                 The Centre assigns top priority to the basic need for ‘education transformation’ in keeping pace with time, and aims at to develop the highest quality of manpower to cater to the needs & expectations of industry, R&D and educational institutions, with higher degree of employability for today and tomorrow.</p>
-            <br>
+
         </div>
-        <img src="../src/laptop.jpg" alt="student" class="lapcenter">
+        <!-- <img src="../src/laptop.jpg" alt="student" class="lapcenter"> -->
         <div class="fontcontent">
-            <br>
             <h1 class="subhead">Goals</h1>
             <ul>
                 <li>
-                    <p><h2>Vision:</h2> Reaching the un-reached and empowering the youth through Technical Education and Skill Development.</p>
+                    <br>
+                    <h2>Vision:</h2>
+                    <p class="cont">Reaching the un-reached and empowering the youth through Technical Education and Skill Development.</p>
                 </li>
                 <li>
-                    <p><h2>Mission:</h2> Advancement of Electronics, Telecommunication, Information Technology & other related disciplines to contribute in Nation’s Human Resource & Infrastructure Development through our Engineers.</p>
+                    <br>
+                    <h2>Mission:</h2>
+                    <p class="cont"> Advancement of Electronics, Telecommunication, Information Technology & other related disciplines to contribute in Nation’s Human Resource & Infrastructure Development through our Engineers.</p>
                 </li>
                 <li>
-                    <p><h2>Motives:</h2> IETE is helping it's students to learn and grow in the emerging field of Electronics and Telecommunication. One of the missions of IETE is to provide the best mode of studying a Btech degree programme.</p>
+                    <br>
+                    <h2>Motives:</h2>
+                    <p class="cont"> IETE is helping it's students to learn and grow in the emerging field of Electronics and Telecommunication. One of the missions of IETE is to provide the best mode of studying a Btech degree programme.</p>
                 </li>
             </ul>
         </div>
     </main>
+    <div class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="employees">
+                        <p class="counter-count">879</p>
+                        <p class="employee-p">Employee</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="customer">
+                        <p class="counter-count">954</p>
+                        <p class="customer-p">Customer</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="design">
+                        <p class="counter-count">1050</p>
+                        <p class="design-p">Design</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="order">
+                        <p class="counter-count">652</p>
+                        <p class="order-p">Orders</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 <script src="../scripts/footer.js"></script>
+<script>
+    $('.counter-count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+</script>
 </html>
