@@ -190,13 +190,7 @@ footer{
 /* .navbar-nav{
     justify-content: space-between;
 } */
-/* .navbar-brand
-{
-  position: absolute;
-  left: 2%;
-  text-align: left;
-  margin: auto;
-} */
+
 .abcd{
     border-radius: 70px;
     width: 200px;
@@ -214,7 +208,11 @@ footer{
     margin-bottom: 0;
 } */
 
+
+
 @media(max-width:425px){
+
+    
 .overlay{
     top: 19%;
 }
