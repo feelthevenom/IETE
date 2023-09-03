@@ -10,8 +10,9 @@
   }
   
   .swiper {
-    width: 80%;
-    height: 600px;
+    margin-top: 1500px;
+    width: 90%;
+    height:100vh;
   }
   
   .swiper-pagination-bullet,
@@ -69,12 +70,19 @@
   }
   
   @media(max-width:750px){
+
     .swiper{
       height: 200px;
     }
-
     .swiper-pagination {
     bottom: 17px !important;
     transform: scale(1.2);
   }
+  
   }
+  @media(max-width:320px)
+{
+   .swiper{
+    margin-bottom: 1000px;
+  }
+}
