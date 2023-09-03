@@ -35,7 +35,7 @@ foot = `<div class="container">
   </div>
 
   <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-    <p>© Josephites. All Rights Reserved.</p>
+    <p>© TEAM_ROCKERZ. All Rights Reserved.</p>
     <ul class="list-unstyled d-flex">
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
