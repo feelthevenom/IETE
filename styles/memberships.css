@@ -14,13 +14,13 @@ body
     background-size: cover;
     background-color: #fbfcf0;
     background-position: center;
-    text-align: justify;
-    text-align: left;
+    /* text-align: justify;
+    text-align: left; */
 }
-main
+/* main
 {
     width: 100%;
-}
+} */
 .thinkimg img
 {
     /* display: block; */
@@ -102,7 +102,7 @@ h3{
     border-radius: 30px;
     height: 40px;
 }
-li{
+.grid-item ul li{
     padding: 5px;
     font-size: 1.2vw;
 }
