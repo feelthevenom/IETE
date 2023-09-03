@@ -93,12 +93,15 @@ button{
 a{
     text-decoration: none;
 }
-.button{
+.pdfbutton{
     margin-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 80px;
+}
+.pdfbutton a button{
+    border-radius: 20px;
 }
 .names{
     text-align: center;
@@ -141,12 +144,12 @@ a{
     }
 }
 @media(max-width:840px){
-    button{
+    .pdfbutton{
         color: white;
         background-color: #1a1a66;
-        width: 26vw;
+        width: 24vw;
         border-radius: 30px;
-        height: 15vh;
+        /* height: 15vh; */
         font-size: 1.5vw;
     }
 }
