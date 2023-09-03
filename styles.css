@@ -50,7 +50,7 @@ footer
 }
 
 .navbar{
-    height: 70px;
+    /* height: 70px; */
     background-color: #1a1a66;
 }
 
@@ -187,16 +187,16 @@ footer{
 .nav-link{
     color: white !important;
 }
-.navbar-nav{
+/* .navbar-nav{
     justify-content: space-between;
-}
-.navbar-brand
+} */
+/* .navbar-brand
 {
   position: absolute;
   left: 2%;
   text-align: left;
-  /* margin: auto; */
-}
+  margin: auto;
+} */
 .abcd{
     border-radius: 70px;
     width: 200px;
