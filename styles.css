@@ -13,10 +13,11 @@
     font-family: 'Alkatra', cursive;
 }
 .header{
-    position: fixed;
+    position: absolute;
     width: 100%;
-    z-index: 9999;
+    z-index:3;
     top: 0;
+    left: 0;
 }
 html{
     height: 100%;
@@ -156,7 +157,7 @@ footer{
     }
 }
 .nav-item{
-    font-size: 19px;
+    font-size: 15px;
 
 }
 .overlay {
@@ -205,3 +206,28 @@ footer{
     }
 }
 
+.logo{
+    width: 300px;
+    height: auto;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-nav{
+    justify-content: space-between;
+}
+.navbar-brand
+{
+  position: absolute;
+  width: 100%;
+  left: 2%;
+  text-align: left;
+  margin: auto;
+}
+@media only screen and (max-width: 320px) {
+    .logo{
+        width: 300px;
+        height: auto;
+    }
+    
+}
