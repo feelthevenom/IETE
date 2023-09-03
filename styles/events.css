@@ -27,7 +27,7 @@ main{
     /* font-size: 26px; */
     font-size: 2vw;
 }
-@media(max-width:425px){
+@media(max-width:517px){
 .sliding{
     margin-bottom: 300px;
 }
