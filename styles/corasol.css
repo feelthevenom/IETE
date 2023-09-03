@@ -10,7 +10,7 @@
   }
   
   .swiper {
-    margin-top: 1500px;
+    margin-top: 1300px;
     width: 90%;
     height:100vh;
   }
@@ -22,7 +22,7 @@
   
   .swiper-pagination {
     bottom: 34px !important;
-    transform: scale(1.8);
+    transform: scale(1.2);
   }
   
   .swiper-slide {
@@ -80,9 +80,9 @@
   }
   
   }
-  @media(max-width:320px)
+  @media(max-width:425px)
 {
-   .swiper{
-    margin-bottom: 1000px;
+  .swiper {
+  margin-top: 550px;
   }
 }
