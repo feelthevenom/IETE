@@ -6,8 +6,8 @@ foot = `<div class="container">
             <p>IETE Chennai Centre,<br> No. 37,
             Conran Smith Road Entrance Peters Road,<br>
             Gopalapuram, Chennai - 600 086,<br> Tamil Nadu, India.<br> <br>
-            Phone: 044 2835 0773 <br>
-            Email: ietechennai@gmail.com <br></p>
+            Phone: <a href="tel:044 2835 0773">044 2835 0773</a> <br>
+            Email: <a href="mailto:ietechennai@gmail.com">ietechennai@gmail.com</a> <br></p>
     </div>
 
     <div class="col-6 col-md-2 mb-3">
@@ -35,7 +35,7 @@ foot = `<div class="container">
   </div>
 
   <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-    <p>© Josephites. All Rights Reserved.</p>
+    <p>© TEAM_ROCKERZ. All Rights Reserved.</p>
     <ul class="list-unstyled d-flex">
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
       <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
