@@ -93,49 +93,27 @@ body
     line-height: 34px;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 20px; /* Gap between grid columns */
-    width: 1000px; /* Set the width of the grid container */
-    margin: 0 auto; /*Center the grid container*/
     padding-top: 50px;
-  }
-  
-  .grid-row {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns within each row */
-    gap: 50px; /* Gap between grid items within a row */
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns */
+    grid-template-rows: repeat(4, 100px); /* 3 rows */
+    gap: 10px; /* Gap between grid items */
+    max-width: 800px; /* Set a maximum width for the grid */
+    margin: 0 auto; /* Center the grid horizontally */
 }
-  
-  .grid-item {
-    
-    color: white; /* Text color of grid items */
-    padding: 20px; /* Padding inside each grid item */
-    text-align: center; /* Center the content horizontally */
-    border: 1px solid #ccc; /* Add a border for grid items */
-    width: 300px;
-    /*display: block;*/
-    border-radius: 7px;
-    font-size: 22px;
-    /*margin: 0 auto;*/
-  }
-  @media only screen and (max-width: 767px) {
-    .grid-item {  
-        width: 100px;
-        height: 18px;
-        border-radius: 7px;
-        font-size: 8px;
-        text-align: center;
-      }
-      .grid-row {
-        gap: 10px; /* Gap between grid items within a row */
-    }
-    .grid-container {
-        width: 60%; /* Set the width of the grid container */
-        margin:none; /*Center the grid container*/
-      }
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  @media(max-width:988px){
 
 }
-  
-  
