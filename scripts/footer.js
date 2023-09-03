@@ -14,7 +14,7 @@ foot = `<footer class="footer" style="margin-top: 50px;">
         </div>
         
         <div class="footer-col">
-            <h4>Courses</h4>
+            <h4>Courses:</h4>
             <ul>
                 <li><a href="#">VLSI</a></li>
                 <li><a href="#">5G</a></li>
@@ -23,7 +23,7 @@ foot = `<footer class="footer" style="margin-top: 50px;">
             </ul>
         </div>
         <div class="footer-col">
-            <h4>follow us</h4>
+            <h4>Follow us:</h4>
             <div class="social-links">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
