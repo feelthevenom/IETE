@@ -17,4 +17,6 @@ var swiper = new Swiper(".swiper", {
       clickable: false,
     },
   });
-  
+  function myBtn() {
+    alert("Submitted");
+  }
