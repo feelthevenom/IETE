@@ -97,7 +97,11 @@ body
     max-width: 800px; /* Set a maximum width for the grid */
     margin: 0 auto; /* Center the grid horizontally */
 }
-
+.about{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+}
 .grid-item {
     display: flex;
     justify-content: center;
@@ -125,6 +129,9 @@ body
     }
     .cont{
         font-size: 9px;
+    }
+    .about{
+        font-size: 25px;
     }
   }
  
