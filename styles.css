@@ -204,7 +204,10 @@ footer{
     background-color: white;
 }
 
-
+    .my-custom-navbar .navbar-toggler-icon {
+        font-weight: 700;
+    }
+ 
 @media(max-width:425px){
     .logo{
         width: 200px;
