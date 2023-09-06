@@ -191,10 +191,6 @@ footer{
     width: 50px;
 }
 
-/* .navbar-nav{
-    justify-content: space-between;
-} */
-
 .abcd{
     border-radius: 70px;
     width: 200px;
@@ -203,7 +199,10 @@ footer{
     color: #1a1a66;
     background-color: white;
 }
-
+.abcd:hover{
+    background-color: #1a1a66;
+    color: #f5f5f5;
+}
     .my-custom-navbar .navbar-toggler-icon {
         font-weight: 700;
     }
@@ -211,6 +210,14 @@ footer{
 @media(max-width:425px){
     .logo{
         width: 200px;
+    }
+    .abcd{
+        width: 100px;
+        height: 20px;
+    }
+    .abcd:hover{
+        background-color: #1a1a66;
+        color: #f5f5f5;
     }
 .overlay{
     top: 19%;
@@ -231,7 +238,7 @@ section{
     padding-right: 30px;
 }
 body{
-    padding-bottom: 200vh;
+    padding-bottom: 160vh;
 }
 }
 

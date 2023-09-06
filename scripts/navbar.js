@@ -1,5 +1,5 @@
 nav = `<header class="header">
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-dark my-custom-navbar">
 <div class="container">
     <!-- Logo on the left -->
     <a class="navbar-brand" href="#">
