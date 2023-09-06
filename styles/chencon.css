@@ -111,9 +111,10 @@ a{
 @media(max-width:587px){
     .names1{
         margin-bottom: 300px;
+        font-size: 10px;
     }
     .h31{
-        font-size: 2vw;
+        font-size: 12px;
     }
     .title1{
         font-size: 4vw;
@@ -122,8 +123,14 @@ a{
         font-size: 2vw;
     }
    .recent{
-    font-size: 1.5vw;
+    font-size: 8px;
    }
+   .reg{
+    font-size: 8px;
+   }
+}
+.names{
+    font-size: 8px;
 }
 @media(max-width:840px){
     .pdfbutton{
