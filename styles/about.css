@@ -21,7 +21,7 @@ body
 }
 
 .fontcontent{
-    margin-top: 80px;
+    margin-top: 40px;
     font-family:sans-serif;
     font-weight: 150;
     font-size: large;
@@ -113,7 +113,21 @@ body
     .grid-container {
     padding-bottom: 120px;
     }
+
+    .tent{
+        font-size: 9px;
+    }
+    .subhead{
+    font-size: 20px;
+    }
+    .roles{
+        font-size: 20px;
+    }
+    .cont{
+        font-size: 9px;
+    }
   }
+ 
 .navbar-toggler-icon{
     color:white;/*change toggle bar color*/
 }
