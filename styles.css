@@ -257,6 +257,6 @@ body{
     background-color: rgb(73, 17, 227);
     transform: scale(1.1);
   }  
-.navbar-toggler-icon{
-    color:white;/* change toggle color to white in navbar*/
+.navbar-light .navbar-toggler-icon{
+    color:white !important;/* change toggle color to white in navbar*/
 }
