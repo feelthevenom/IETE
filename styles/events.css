@@ -1,34 +1,24 @@
-/* body{
-    background-image: none;
 
-}
-:root {
-    --navcol: #1a1a66;
-  }
-  .carousel-inner{
-     height: 300px;
-}*/
-
-/* .item, img{
-    height: 100% !important;
-    width:  100% !important;
-}  */
-/* .sliding{
-    height: 200vh;
-    size: 100vh;
-    position: relative;
-    align-items: center;
-} */
 main{
     margin-top: 50px;
 }
 .eventitle{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* font-size: 26px; */
+    text-align: center;
     font-size: 2vw;
+    padding-top: 50px;
+}
+.eventlist{
+
+
 }
 @media(max-width:517px){
 .sliding{
     margin-bottom: 300px;
+}
+.eventitle{
+    font-size: 16px;
+    text-align: center;
 }
 }
