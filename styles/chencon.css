@@ -15,7 +15,6 @@
 
 body
 {
-    /* min-height: 100vh; */
     background-color: #fbfcf0;
     background-image: none;
     background-size: cover;
@@ -26,23 +25,6 @@ body
     padding:12px;
 }
 
-/* .header
-{
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    padding: 1.3rem 10%;
-    background: var(--navcol);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-} */
-
-/* .content{
-    display: none;
-} */
 .eventimg{
     display: block;
     margin-left: auto;
@@ -114,20 +96,17 @@ a{
 :root {
     --navcol: #1a1a66;
   }
-  @media(max-width: 400px)
+  @media(max-width: 541px)
 {
     .eventimg{
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    /* button{
-        color: white;
-        background-color: #1a1a66;
-        width: 25vw;
-        border-radius: 30px;
-        height: 10vh;
-        font-size: 1.5vw;
-    } */
+    .pdfbutton a button{
+        height: 4vh;
+        font-size: 2vw;
+
+    }
 }
 @media(max-width:587px){
     .names1{
@@ -137,11 +116,14 @@ a{
         font-size: 2vw;
     }
     .title1{
-        font-size: 2vw;
+        font-size: 4vw;
     }
     .h51{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
+   .recent{
+    font-size: 1.5vw;
+   }
 }
 @media(max-width:840px){
     .pdfbutton{

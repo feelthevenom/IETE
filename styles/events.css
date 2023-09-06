@@ -9,10 +9,6 @@ main{
     font-size: 2vw;
     padding-top: 50px;
 }
-.eventlist{
-
-
-}
 @media(max-width:517px){
 .sliding{
     margin-bottom: 300px;
